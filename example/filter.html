@@ -1,0 +1,54 @@
+<script src="../tinytest.js"></script>
+<script>
+
+  //Example 1:
+  //filter([1,2,3], function(){})
+
+  //Example 2:
+  //filter([1,2,3], function(number){
+  //console.log(number);
+  //})
+
+  //Example 3:
+  //filter([1,2,3], function(number, index){
+  //console.log(index);
+  //})
+
+
+  //Example 4:
+  //filter([1,2,3], function(number, index, originalArray){
+  //console.log(originalArray);
+  //})
+
+
+  // Example 5:
+  // filter([1,2,3], function(){
+  //console.log(this.name);
+  //}, {name: 'Gordon'})
+
+  //Example 6:
+  // var testArray = [1,2,3];
+  // var filterArray = filter(testArray, function(){});
+  // testArray !== filteredArray
+
+  //Example 7:
+  //var testArray = [1,2,3];
+  //var filteredArray = filter(testArray, function(element){
+  //  return element > 1;
+  //})
+  //expect filteredArray to be [2,3]
+
+</script>
+<script>
+tests({
+
+  'adds numbers': function() {
+    fail();
+  },
+
+  'subtracts numbers': function() {
+    fail();
+  },
+
+});
+</script>
